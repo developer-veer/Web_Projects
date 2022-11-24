@@ -1,0 +1,44 @@
+ #form-div{
+    width: 50%;
+    position: absolute;
+    margin-left: 10rem;
+}
+#btn{
+    position: relative;
+}
+.offcanvas-title{
+    color: yellow;
+    margin-left: 10rem;
+    font-family: Rockwell;
+}
+#Brand-name{
+    color: yellow;
+}
+.card-group{
+
+    position: absolute;
+
+}
+#nav
+{
+    position: relative;
+}
+.card-img-top{
+    height: 50%;
+}
+.card{
+    height: 30vh;
+}
+
+
+#body{
+
+    background-color: gray;
+}
+.img
+{
+    height:60vh;
+    width: 100vw;;
+}
+
+/* -------------------- */

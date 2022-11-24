@@ -1,0 +1,243 @@
+#totalReg-div
+{
+    width: 65rem;
+    height: 55rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(47, 89, 125);
+    box-shadow:
+  16.6px 16.6px 4px rgba(0, 0, 0, 0.108),
+  30.3px 30.3px 9.2px rgba(0, 0, 0, 0.18),
+  41.1px 41.1px 16px rgba(0, 0, 0, 0.229),
+  49px 49px 25.4px rgba(0, 0, 0, 0.267),
+  54.5px 54.5px 39.2px rgba(0, 0, 0, 0.303),
+  58.7px 58.7px 61.2px rgba(0, 0, 0, 0.351),
+  65.9px 65.9px 101.6px rgba(0, 0, 0, 0.441),
+  100px 100px 203px rgba(0, 0, 0, 0.73)
+;
+
+}
+#btn{
+
+        font: 15px Tahoma, Geneva, sans-serif;
+        font-style:normal;
+        color:#5e185e;
+        background:#1568db;
+        border:0px solid #ffffff;
+        text-shadow:0px -1px 1px #222222;
+        box-shadow:2px 2px 5px #000000;
+        -moz-box-shadow:2px 2px 5px #000000;
+        -webkit-box-shadow:2px 2px 5px #000000;
+        border-radius:10px 10px 10px 10px;
+        -moz-border-radius:10px 10px 10px 10px;
+        -webkit-border-radius:10px 10px 10px 10px;
+        width:97px;
+        padding:10px 13px;
+        cursor:pointer;
+        margin:0 auto;
+    
+       
+        
+}
+
+#btn-div{
+    display: flex;
+    width: 20rem;
+    height: 6rem;
+    position: absolute;
+   
+    margin-top: 5rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+
+}
+
+#btn:hover
+{
+   
+    background:#0f6730;
+    color: #000000;
+   
+}
+
+#btn:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+    }
+
+#h2-count{
+    padding: 2rem;
+    margin-left: 18rem;
+    color:whitesmoke;
+}
+
+#list-img-div
+{
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 1rem;
+    width: 5rem;
+}
+
+#list-Delete-btn
+{
+    background-color: #1568db;
+    width: 4rem;
+    height: 3rem;
+    font-style: italic;
+    border-radius: 12px;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+#list-Delete-btn:hover
+{
+    background-color:red;
+}
+.table-wrapper {
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td,
+.fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4fc3a1;
+}
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before {
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead,
+    .fl-table tbody,
+    .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child {
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td,
+    .fl-table th {
+        padding: 20px 0.625em 0.625em 0.625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #f8f8f8;
+        border-right: 1px solid #e6e4e4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #e6e4e4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+#totalReg-div-btns
+{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(47, 89, 125);
+    box-shadow:
+  16.6px 16.6px 4px rgba(0, 0, 0, 0.108),
+  30.3px 30.3px 9.2px rgba(0, 0, 0, 0.18),
+  41.1px 41.1px 16px rgba(0, 0, 0, 0.229),
+  49px 49px 25.4px rgba(0, 0, 0, 0.267),
+  54.5px 54.5px 39.2px rgba(0, 0, 0, 0.303),
+  58.7px 58.7px 61.2px rgba(0, 0, 0, 0.351),
+  65.9px 65.9px 101.6px rgba(0, 0, 0, 0.441),
+  100px 100px 203px rgba(0, 0, 0, 0.73)
+;
+}
+#list-view-btn
+{   width: 4rem;
+    height: 3rem;
+    font-style: italic;
+    border-radius: 12px;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    background-color: #1568db;
+}
+#list-view-btn:hover
+{
+   background-color: #0f6730;
+}
+

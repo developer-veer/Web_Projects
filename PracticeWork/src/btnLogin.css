@@ -1,0 +1,51 @@
+.loginBtn {
+	box-shadow: -2px 4px 14px -12px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:22px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:1px 7px 0px #2b665e;
+	margin-left: 44rem;
+}
+.loginBtn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.loginBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.Contact-btn{
+	box-shadow: -2px 4px 14px -12px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:22px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:1px 7px 0px #2b665e;
+	margin-left: 44rem;
+}
+.Contack-btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.Contact-btn:active {
+	position:relative;
+	top:1px;
+}

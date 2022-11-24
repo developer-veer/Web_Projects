@@ -1,0 +1,8 @@
+#footer-div
+{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 85rem;
+    height: 20rem;
+    margin-top: 60rem;
+}
