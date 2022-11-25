@@ -1,0 +1,10 @@
+
+#main-content
+{
+    width: 50rem;
+    height: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    
+}

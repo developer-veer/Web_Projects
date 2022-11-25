@@ -1,0 +1,31 @@
+.Sidebar-div
+{
+    width: 20rem;
+    height: 40rem;
+    margin-top:0rem;
+    margin-left:1rem;
+    position: absolute;
+    top:3rem;
+}
+#Sidebar-content-div
+{
+    width:18rem ;
+    height: 20rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    border-radius: 41px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 100px #5a5a5a,
+                 -35px -35px 100px #ffffff;
+}
+h6::before {
+    content: " >  ";
+    color: #18c6dd;
+    font-size: 1.1rem;
+  }
+
+.h6-class :hover
+{
+    background-color: rgb(70, 186, 212);
+    color: green;
+}
