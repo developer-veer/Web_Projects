@@ -1,0 +1,26 @@
+.grid-container{
+    
+    display: grid;
+    background-color: gray;
+    grid-auto-rows: minmax(auto, auto);
+}
+.grid-item-1
+{
+    height: 7rem;
+}
+.grid-item-2
+{
+    margin-top: 1rem;
+}
+.grid-item-3
+{
+    background-color: rgb(3, 3, 1);
+}
+.grid-item-4
+{
+    background-color: rgb(187, 47, 131);
+}
+.grid-item-5
+{
+    background-color: rgb(19, 223, 26);
+}
