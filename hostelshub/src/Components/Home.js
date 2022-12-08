@@ -7,7 +7,7 @@ function Home() {
         <div className="grid-container">
 
         <div className="grid-item-1">
-            <Navbar/>
+            
             
         </div>
 

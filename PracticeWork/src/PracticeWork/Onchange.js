@@ -20,18 +20,19 @@ function Onchange() {
         )
         
    }
-
    const handlesubmit = (e) =>
    {
       e.preventDefault();
    }
-   
+    
     return ( 
 
         <div>
             <form onSubmit={handlesubmit}>
+
             UserName : <input type="text" value={input.username}  onChange={ handleChnage1 }/>
             <br/><br/>
+
             Password: <input type="password" value={input.password} onChange={handleChnage1}/>
             <br/><br/>
             Eamil : <input type="email" value={input.email} onChange={ handleChnage1 }/>

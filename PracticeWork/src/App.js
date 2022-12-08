@@ -36,6 +36,7 @@ function App() {
        <Route path="/view" element ={<View/>} />
 
        </Routes> */}
+      
        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path="/result" element={<Result/>}/>

@@ -3,7 +3,7 @@ import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
-import {Input} from '@material-tailwind/react';
+import Button from '@mui/material/Button';
 
 function Search() {
   return (
@@ -39,11 +39,17 @@ function Search() {
 
         <div className="radio-btn-div" style={{marginTop:'11rem'}}>
         <input class="form-control-sm" type="text" placeholder="City" aria-label="default input example" 
-        style={{height:'3rem' , backgroundColor:'rgb(23, 25, 27)' , marginTop:'1rem' , marginLeft:'2rem' , 
+        style={{height:'3rem' , width:'20rem', backgroundColor:'rgb(23, 25, 27)' , marginTop:'1rem' , marginLeft:'8rem' , 
         borderTop:'none' , borderLeft:'none' , borderRight:'none' , borderBottomColor:'rgba(255,165,64,255)' , color:'rgba(255,165,64,255)'
-    }}
+        }}
         />
         </div>
+      
+        <Button variant="contained" sx={{backgroundColor:'rgba(255,165,64,255)' , color:'black' , '&:hover': {
+              backgroundColor: 'black', color: 'rgba(255,165,64,255)'} , fontStyle:'oblique' , fontWeight:623 , marginTop:'20rem' , marginLeft:'24rem' }}>
+         Search
+        </Button>
+      
 
       </div>
 

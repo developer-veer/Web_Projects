@@ -20,6 +20,7 @@ const ViewRegWarden = (prop) => {
 
         regWrdn.filter((regWrdn) => regWrdn.id !== id )
     )
+    
     setCount(prev => prev -1)
   }
 

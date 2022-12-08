@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export  const UseState = () =>
 {
-
     const[count , setCount] = useState(()=>
     {
         console.log('run function');
