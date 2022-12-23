@@ -1,0 +1,8 @@
+#grid-container
+{
+    width: 80rem;
+    height: 50rem;
+    margin-top: 5rem;
+    border: 2px solid black;
+    background-color: blueviolet;
+}

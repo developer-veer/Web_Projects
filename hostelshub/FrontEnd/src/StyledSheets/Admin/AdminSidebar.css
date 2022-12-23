@@ -1,0 +1,25 @@
+#admin-sidebar
+{
+    width: 0.6fr;
+    height: 50rem;
+    position: relative;
+    margin-top: 2rem;
+    background-color: rgb(204, 204, 231);
+}
+#sidebar-logo
+{
+    width: 14rem;
+    height: 14rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem; 
+}
+#sidebar-buttons-div
+{
+    position: absolute;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 22rem;
+    margin-left: 1rem;
+}

@@ -1,30 +1,31 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export  const UseState = () =>
 {
-    const[count , setCount] = useState(()=>
-    {
-        console.log('run function');
-        return 7 ;
-    });
+   const ref = useRef(0);
     const Minus = ()=>{
 
-        setCount(prevCount => prevCount -1)
-        setCount(prevCount => prevCount -1)
+       
+        
         
     }
 
     const Plus = ()=>{
-
-        setCount(prevCount => prevCount +1)
-        setCount(prevCount => prevCount + 1)
+        
+        ref.current = ref.current+ 1;
+        console.log(ref.current);
     }
+
+    useEffect(()=>
+    {
+        console.log("i rendered...")
+    })
 
    return(
     <div>
-        <button onClick={()=> setCount(count+1)}>+</button>
-        <span>{count}</span>
-        <button onClick={()=> setCount(count-1)}>-</button>
+        <button onClick={Plus}>+</button>
+        <span>{}</span>
+        <button onClick={Minus}>-</button>
     </div>
    );
 }

@@ -1,0 +1,17 @@
+#login-div-reg
+{
+    width: 70rem;
+    height: 40rem;
+    margin-left: 8rem;
+    display: flex;
+}
+#login-box-1{
+
+    margin-left: -12rem;
+    height: 30rem;
+}
+#login-box-2
+{
+    margin-left: 13rem;
+    height: 30rem;
+}
