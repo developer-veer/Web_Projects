@@ -1,7 +1,14 @@
 import '../../StyledSheets/HomePageCSS/Navbar.css';
 import Button from '@mui/material/Button';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 function Navbar() {
+
+  const loc = useLocation();
+
+  if(loc.pathname === '/Wardens' || loc.pathname === '/Settings' || loc.pathname === '/customer/dashboard' || loc.pathname ==='/customer/AddHostel')
+  {
+    return null;
+  }
   
   return (
     <div>
@@ -17,11 +24,16 @@ function Navbar() {
         <Link to= '/' style={{textDecoration:'none'}}>
          <li>Home</li>
          </Link>
-         <li>Contact</li>
+      
          <li>About</li>
-         <Link to='/admin' style={{textDecoration:'none'}}>
+         <Link to='/Admin' style={{textDecoration:'none'}}>
          <li>Administration</li>
          </Link>
+
+         <Link to='/customer/dashboard' style={{textDecoration:'none'}}>
+         <li>Customer</li>
+         </Link>
+         
         </div>
 
         {/* login and Register Buttons */}

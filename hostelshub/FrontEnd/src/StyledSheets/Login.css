@@ -7,7 +7,7 @@
         margin-top: 6rem;
         margin-left: 12rem;
         position: relative;
-        background-color:  #202020;
+        background-color:  rgba(255,165,64,255);
 }
 #login-child-div
 {
@@ -25,9 +25,9 @@
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: rgba(22, 21, 21, 0.922);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: 0 15px 25px rgba(29, 28, 28, 0.6);
     border-radius: 10px;
   }
   
@@ -76,7 +76,7 @@
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color:  rgba(255,165,64,255);
+    color:  rgb(133, 125, 125);
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
