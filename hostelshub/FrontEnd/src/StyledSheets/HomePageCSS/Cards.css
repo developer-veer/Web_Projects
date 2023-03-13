@@ -1,0 +1,11 @@
+#card-div
+{
+    width: 83.5rem;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin-left: .3rem;
+    border: none;
+}

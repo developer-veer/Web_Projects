@@ -1,0 +1,13 @@
+#main-div
+{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+#side_bar-sec
+{
+    background-color:rgb(204, 204, 231);
+}
+#main-sec{
+    background-color: rgb(227, 222, 222);
+}

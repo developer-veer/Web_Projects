@@ -1,0 +1,51 @@
+/* body{
+    background-color: #2f8197;
+} */
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background: rgba(255,165,64,255);
+    padding: 3%;
+
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:15%;
+    color: #fff;
+    text-align: center;
+}
+.contact-info img{
+    margin-bottom: 20%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    border: 2px solid rgba(255,165,64,255);
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: rgba(255,165,64,255);
+    color: rgb(23, 20, 20);
+    font-weight: 600;
+    margin-top: 2rem;
+    width: 30%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+#bookingform-container
+{
+    
+    margin-top: 1rem;
+    margin-left: 12rem;
+}

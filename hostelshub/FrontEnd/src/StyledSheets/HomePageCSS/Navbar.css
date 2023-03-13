@@ -1,0 +1,38 @@
+.div-container
+{
+    display: flex;
+    position: fixed;
+    top:0;
+    justify-content: space-between;
+    width: 86rem;
+    height:4rem;
+    background-color: rgb(32, 31, 28) ;
+    z-index: 1;
+}
+#logo
+{
+    margin-top: 0rem;
+    width:fit-content;
+}
+.nav-btn-div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 29rem;
+    margin-top: 1.3rem;
+    width: 20rem;
+    height: fit-content;
+}
+li{
+    list-style: none;
+    color: rgba(255,165,64,255);
+    font-size: 1rem;
+    font-style: oblique;
+}
+#nav-btn-lo-Rg
+{
+    width: 12rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    
+}
